@@ -1,5 +1,5 @@
 # Use official node image from docker
-FROM node:10
+FROM node:10-alpine
 
 # Create application directory
 RUN mkdir -p /usr/src/app
